@@ -1,9 +1,357 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "newest": [
+        {
+            "id": 1,
+            "title": "World Cup 2024: England Triumphs Over Brazil in Final",
+            "category": "football",
+            "image": "https://cdn.britannica.com/69/228369-050-0B18A1F6/Asian-Cup-Final-2019-Hasan-Al-Haydos-Qatar-Japan-Takumi-Minamino.jpg",
+            "description": "In a thrilling final match, England defeated Brazil 3-2 to win the World Cup 2024. The game saw exceptional performances from both teams, with England's forward scoring a last-minute goal to secure the victory."
+        },
+        {
+            "id": 2,
+            "title": "Messi Retires from International Football After a Stellar Career",
+            "category": "football",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NjyS_l2kO9x0tcRgg1iIEU4ZeRWZJpg-Hw&s",
+            "description": "Lionel Messi has announced his retirement from international football following a legendary career with Argentina. Messi, widely regarded as one of the greatest players of all time, leaves a lasting legacy."
+        },
+        {
+            "id": 3,
+            "title": "Champions League Draw: Exciting Fixtures for the Group Stage",
+            "category": "football",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NjyS_l2kO9x0tcRgg1iIEU4ZeRWZJpg-Hw&s",
+            "description": "The draw for the UEFA Champions League group stage has been completed, featuring several mouth-watering clashes. Fans are eagerly anticipating the match-ups between top European clubs."
+        },
+        {
+            "id": 4,
+            "title": "New Football Manager App Unveiled with Innovative Features",
+            "category": "football",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NjyS_l2kO9x0tcRgg1iIEU4ZeRWZJpg-Hw&s",
+            "description": "The latest football manager app has been released, boasting new features such as advanced analytics and real-time match simulations, providing a more immersive experience for football fans and managers alike."
+        },
+        {
+            "id": 5,
+            "title": "Transfer Window Madness: Top 5 Biggest Transfers of the Summer",
+            "category": "football",
+            "image": "https://cdn.britannica.com/69/228369-050-0B18A1F6/Asian-Cup-Final-2019-Hasan-Al-Haydos-Qatar-Japan-Takumi-Minamino.jpg",
+            "description": "The summer transfer window has seen some of the biggest moves in football history. From record-breaking signings to surprise transfers, here are the top five deals that shook the football world."
+        },
+        {
+            "id": 6,
+            "title": "Youth Academy Success: Rising Stars of the 2024 Season",
+            "category": "football",
+            "image": "https://cdn.britannica.com/69/228369-050-0B18A1F6/Asian-Cup-Final-2019-Hasan-Al-Haydos-Qatar-Japan-Takumi-Minamino.jpg",
+            "description": "Discover the most promising young talents emerging from football academies this season. These rising stars are set to make a significant impact in the top leagues around the world."
+        },
+        {
+            "id": 7,
+            "title": "NBA Finals 2024: Lakers Secure Championship with Game 7 Win",
+            "category": "basketball",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg/640px-Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg",
+            "description": "The Los Angeles Lakers clinched the NBA Championship in a dramatic Game 7 against the Miami Heat. LeBron James led the Lakers to victory with a standout performance."
+        },
+        {
+            "id": 8,
+            "title": "Kevin Durant Joins the Warriors: What This Means for the 2024 Season",
+            "category": "basketball",
+            "image": "https://sportshub.cbsistatic.com/i/r/2024/08/16/de62eee0-c2e7-4a5b-8bab-e545543aca61/thumbnail/450x253/8a0f0b0d1308b4c5f3dfaca453ac2eb7/kevin-durant-anthony-edwards-usa-g.jpg",
+            "description": "Kevin Durant’s return to the Golden State Warriors is set to shake up the NBA landscape. Explore how this move could impact the Warriors' chances and the league as a whole."
+        },
+        {
+            "id": 9,
+            "title": "Rookie Sensation Anthony Edwards Shines in Summer League",
+            "category": "basketball",
+            "image": "https://sportshub.cbsistatic.com/i/r/2024/08/16/de62eee0-c2e7-4a5b-8bab-e545543aca61/thumbnail/450x253/8a0f0b0d1308b4c5f3dfaca453ac2eb7/kevin-durant-anthony-edwards-usa-g.jpg",
+            "description": "Anthony Edwards has made headlines with his impressive performances in the NBA Summer League. His standout play has raised expectations for his rookie season."
+        },
+        {
+            "id": 10,
+            "title": "LeBron James Surpasses Kareem for All-Time Scoring Record",
+            "category": "basketball",
+            "image": "https://sportshub.cbsistatic.com/i/r/2024/08/16/de62eee0-c2e7-4a5b-8bab-e545543aca61/thumbnail/450x253/8a0f0b0d1308b4c5f3dfaca453ac2eb7/kevin-durant-anthony-edwards-usa-g.jpg",
+            "description": "LeBron James has officially become the NBA’s all-time leading scorer, surpassing Kareem Abdul-Jabbar’s long-standing record. This milestone cements LeBron’s legacy as one of the greatest players in history."
+        },
+        {
+            "id": 11,
+            "title": "Warriors vs. Celtics: The Most Anticipated Matchup of the Season",
+            "category": "basketball",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg/640px-Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg",
+            "description": "The upcoming game between the Golden State Warriors and the Boston Celtics is generating significant buzz. Fans are excited to see these two powerhouse teams face off in a highly anticipated matchup."
+        },
+        {
+            "id": 12,
+            "title": "Historic Triple-Double for Giannis Antetokounmpo in Season Opener",
+            "category": "basketball",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg/640px-Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg",
+            "description": "Giannis Antetokounmpo delivered a historic performance in the season opener, recording a triple-double that has set the tone for his MVP campaign this year."
+        },
+        {
+            "id": 13,
+            "title": "US Open 2024: Serena Williams Makes Final Appearance",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "Serena Williams has announced that the US Open 2024 will be her final tournament. The tennis world bids farewell to one of its greatest players as she competes one last time."
+        },
+        {
+            "id": 14,
+            "title": "Novak Djokovic Wins 24th Grand Slam Title at Wimbledon",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "Novak Djokovic has claimed his 24th Grand Slam title at Wimbledon, cementing his status as one of the greatest tennis players of all time. Djokovic defeated a strong field to secure the victory."
+        },
+        {
+            "id": 15,
+            "title": "Emma Raducanu Claims First Major Title at the Australian Open",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "Emma Raducanu has captured her first major title at the Australian Open, marking a significant milestone in her career. Her victory is celebrated as a new star emerges in women's tennis."
+        },
+        {
+            "id": 16,
+            "title": "Rafael Nadal Announces Retirement from Tennis",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "Rafael Nadal has announced his retirement from professional tennis, ending a remarkable career that includes numerous Grand Slam titles and unforgettable moments."
+        },
+        {
+            "id": 17,
+            "title": "US Open Draw: Key Matchups to Watch in the First Round",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "The draw for the US Open has been revealed, featuring some intriguing matchups in the first round. Fans are eagerly anticipating the action as top players begin their quest for the title."
+        },
+        {
+            "id": 18,
+            "title": "Breakthrough Star Coco Gauff Shines at the US Open",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "Coco Gauff has delivered impressive performances at the US Open, showcasing her potential as a future star of tennis. Her play has captivated audiences and raised expectations for her career."
+        }
+    ],
+    "mostPopular": [
+        {
+            "id": 1,
+            "title": "World Cup 2024: England Triumphs Over Brazil in Final",
+            "category": "football",
+            "image": "https://cdn.britannica.com/69/228369-050-0B18A1F6/Asian-Cup-Final-2019-Hasan-Al-Haydos-Qatar-Japan-Takumi-Minamino.jpg",
+            "description": "In a thrilling final match, England defeated Brazil 3-2 to win the World Cup 2024. The game saw exceptional performances from both teams, with England's forward scoring a last-minute goal to secure the victory."
+        },
+        {
+            "id": 2,
+            "title": "Messi Retires from International Football After a Stellar Career",
+            "category": "football",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NjyS_l2kO9x0tcRgg1iIEU4ZeRWZJpg-Hw&s",
+            "description": "Lionel Messi has announced his retirement from international football following a legendary career with Argentina. Messi, widely regarded as one of the greatest players of all time, leaves a lasting legacy."
+        },
+        {
+            "id": 3,
+            "title": "Champions League Draw: Exciting Fixtures for the Group Stage",
+            "category": "football",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NjyS_l2kO9x0tcRgg1iIEU4ZeRWZJpg-Hw&s",
+            "description": "The draw for the UEFA Champions League group stage has been completed, featuring several mouth-watering clashes. Fans are eagerly anticipating the match-ups between top European clubs."
+        },
+        {
+            "id": 4,
+            "title": "New Football Manager App Unveiled with Innovative Features",
+            "category": "football",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NjyS_l2kO9x0tcRgg1iIEU4ZeRWZJpg-Hw&s",
+            "description": "The latest football manager app has been released, boasting new features such as advanced analytics and real-time match simulations, providing a more immersive experience for football fans and managers alike."
+        },
+        {
+            "id": 5,
+            "title": "Transfer Window Madness: Top 5 Biggest Transfers of the Summer",
+            "category": "football",
+            "image": "https://cdn.britannica.com/69/228369-050-0B18A1F6/Asian-Cup-Final-2019-Hasan-Al-Haydos-Qatar-Japan-Takumi-Minamino.jpg",
+            "description": "The summer transfer window has seen some of the biggest moves in football history. From record-breaking signings to surprise transfers, here are the top five deals that shook the football world."
+        },
+        {
+            "id": 6,
+            "title": "Youth Academy Success: Rising Stars of the 2024 Season",
+            "category": "football",
+            "image": "https://cdn.britannica.com/69/228369-050-0B18A1F6/Asian-Cup-Final-2019-Hasan-Al-Haydos-Qatar-Japan-Takumi-Minamino.jpg",
+            "description": "Discover the most promising young talents emerging from football academies this season. These rising stars are set to make a significant impact in the top leagues around the world."
+        },
+        {
+            "id": 7,
+            "title": "NBA Finals 2024: Lakers Secure Championship with Game 7 Win",
+            "category": "basketball",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg/640px-Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg",
+            "description": "The Los Angeles Lakers clinched the NBA Championship in a dramatic Game 7 against the Miami Heat. LeBron James led the Lakers to victory with a standout performance."
+        },
+        {
+            "id": 8,
+            "title": "Kevin Durant Joins the Warriors: What This Means for the 2024 Season",
+            "category": "basketball",
+            "image": "https://sportshub.cbsistatic.com/i/r/2024/08/16/de62eee0-c2e7-4a5b-8bab-e545543aca61/thumbnail/450x253/8a0f0b0d1308b4c5f3dfaca453ac2eb7/kevin-durant-anthony-edwards-usa-g.jpg",
+            "description": "Kevin Durant’s return to the Golden State Warriors is set to shake up the NBA landscape. Explore how this move could impact the Warriors' chances and the league as a whole."
+        },
+        {
+            "id": 9,
+            "title": "Rookie Sensation Anthony Edwards Shines in Summer League",
+            "category": "basketball",
+            "image": "https://sportshub.cbsistatic.com/i/r/2024/08/16/de62eee0-c2e7-4a5b-8bab-e545543aca61/thumbnail/450x253/8a0f0b0d1308b4c5f3dfaca453ac2eb7/kevin-durant-anthony-edwards-usa-g.jpg",
+            "description": "Anthony Edwards has made headlines with his impressive performances in the NBA Summer League. His standout play has raised expectations for his rookie season."
+        },
+        {
+            "id": 10,
+            "title": "LeBron James Surpasses Kareem for All-Time Scoring Record",
+            "category": "basketball",
+            "image": "https://sportshub.cbsistatic.com/i/r/2024/08/16/de62eee0-c2e7-4a5b-8bab-e545543aca61/thumbnail/450x253/8a0f0b0d1308b4c5f3dfaca453ac2eb7/kevin-durant-anthony-edwards-usa-g.jpg",
+            "description": "LeBron James has officially become the NBA’s all-time leading scorer, surpassing Kareem Abdul-Jabbar’s long-standing record. This milestone cements LeBron’s legacy as one of the greatest players in history."
+        },
+        {
+            "id": 11,
+            "title": "Warriors vs. Celtics: The Most Anticipated Matchup of the Season",
+            "category": "basketball",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg/640px-Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg",
+            "description": "The upcoming game between the Golden State Warriors and the Boston Celtics is generating significant buzz. Fans are excited to see these two powerhouse teams face off in a highly anticipated matchup."
+        },
+        {
+            "id": 12,
+            "title": "Historic Triple-Double for Giannis Antetokounmpo in Season Opener",
+            "category": "basketball",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg/640px-Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg",
+            "description": "Giannis Antetokounmpo achieved a historic triple-double in the season opener, showcasing his all-around skills and setting the tone for a promising season with the Milwaukee Bucks."
+        },
+        {
+            "id": 13,
+            "title": "Emma Raducanu Wins Australian Open: A New Star is Born",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "Emma Raducanu has captured her first major title at the Australian Open, marking a significant milestone in her career. Her victory is celebrated as a new star emerges in women's tennis."
+        },
+        {
+            "id": 14,
+            "title": "Rafael Nadal Announces Retirement from Tennis",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "Rafael Nadal has announced his retirement from professional tennis, ending a remarkable career that includes numerous Grand Slam titles and unforgettable moments."
+        },
+        {
+            "id": 15,
+            "title": "US Open Draw: Key Matchups to Watch in the First Round",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "The draw for the US Open has been revealed, featuring some intriguing matchups in the first round. Fans are eagerly anticipating the action as top players begin their quest for the title."
+        },
+        {
+            "id": 16,
+            "title": "Breakthrough Star Coco Gauff Shines at the US Open",
+            "category": "tennis",
+            "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+            "description": "Coco Gauff has delivered impressive performances at the US Open, showcasing her potential as a future star of tennis. Her play has captivated audiences and raised expectations for her career."
+        }
+    ],
+    "categoryNews": [
+        {
+            "category": "football",
+            "news": [
+                {
+                    "id": 1,
+                    "title": "World Cup 2024: England Triumphs Over Brazil in Final",
+                    "image": "https://cdn.britannica.com/69/228369-050-0B18A1F6/Asian-Cup-Final-2019-Hasan-Al-Haydos-Qatar-Japan-Takumi-Minamino.jpg",
+                    "description": "In a thrilling final match, England defeated Brazil 3-2 to win the World Cup 2024. The game saw exceptional performances from both teams, with England's forward scoring a last-minute goal to secure the victory."
+                },
+                {
+                    "id": 2,
+                    "title": "Messi Retires from International Football After a Stellar Career",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NjyS_l2kO9x0tcRgg1iIEU4ZeRWZJpg-Hw&s",
+                    "description": "Lionel Messi has announced his retirement from international football following a legendary career with Argentina. Messi, widely regarded as one of the greatest players of all time, leaves a lasting legacy."
+                },
+                {
+                    "id": 3,
+                    "title": "Champions League Draw: Exciting Fixtures for the Group Stage",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NjyS_l2kO9x0tcRgg1iIEU4ZeRWZJpg-Hw&s",
+                    "description": "The draw for the UEFA Champions League group stage has been completed, featuring several mouth-watering clashes. Fans are eagerly anticipating the match-ups between top European clubs."
+                },
+                {
+                    "id": 4,
+                    "title": "New Football Manager App Unveiled with Innovative Features",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7NjyS_l2kO9x0tcRgg1iIEU4ZeRWZJpg-Hw&s",
+                    "description": "The latest football manager app has been released, boasting new features such as advanced analytics and real-time match simulations, providing a more immersive experience for football fans and managers alike."
+                },
+                {
+                    "id": 5,
+                    "title": "Transfer Window Madness: Top 5 Biggest Transfers of the Summer",
+                    "image": "https://cdn.britannica.com/69/228369-050-0B18A1F6/Asian-Cup-Final-2019-Hasan-Al-Haydos-Qatar-Japan-Takumi-Minamino.jpg",
+                    "description": "The summer transfer window has seen some of the biggest moves in football history. From record-breaking signings to surprise transfers, here are the top five deals that shook the football world."
+                },
+                {
+                    "id": 6,
+                    "title": "Youth Academy Success: Rising Stars of the 2024 Season",
+                    "image": "https://cdn.britannica.com/69/228369-050-0B18A1F6/Asian-Cup-Final-2019-Hasan-Al-Haydos-Qatar-Japan-Takumi-Minamino.jpg",
+                    "description": "Discover the most promising young talents emerging from football academies this season. These rising stars are set to make a significant impact in the top leagues around the world."
+                }
+            ]
+        },
+        {
+            "category": "basketball",
+            "news": [
+                {
+                    "id": 7,
+                    "title": "NBA Finals 2024: Lakers Secure Championship with Game 7 Win",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg/640px-Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg",
+                    "description": "The Los Angeles Lakers clinched the NBA Championship in a dramatic Game 7 against the Miami Heat. LeBron James led the Lakers to victory with a standout performance."
+                },
+                {
+                    "id": 8,
+                    "title": "Kevin Durant Joins the Warriors: What This Means for the 2024 Season",
+                    "image": "https://sportshub.cbsistatic.com/i/r/2024/08/16/de62eee0-c2e7-4a5b-8bab-e545543aca61/thumbnail/450x253/8a0f0b0d1308b4c5f3dfaca453ac2eb7/kevin-durant-anthony-edwards-usa-g.jpg",
+                    "description": "Kevin Durant’s return to the Golden State Warriors is set to shake up the NBA landscape. Explore how this move could impact the Warriors' chances and the league as a whole."
+                },
+                {
+                    "id": 9,
+                    "title": "Rookie Sensation Anthony Edwards Shines in Summer League",
+                    "image": "https://sportshub.cbsistatic.com/i/r/2024/08/16/de62eee0-c2e7-4a5b-8bab-e545543aca61/thumbnail/450x253/8a0f0b0d1308b4c5f3dfaca453ac2eb7/kevin-durant-anthony-edwards-usa-g.jpg",
+                    "description": "Anthony Edwards has made headlines with his impressive performances in the NBA Summer League. His standout play has raised expectations for his rookie season."
+                },
+                {
+                    "id": 10,
+                    "title": "LeBron James Surpasses Kareem for All-Time Scoring Record",
+                    "image": "https://sportshub.cbsistatic.com/i/r/2024/08/16/de62eee0-c2e7-4a5b-8bab-e545543aca61/thumbnail/450x253/8a0f0b0d1308b4c5f3dfaca453ac2eb7/kevin-durant-anthony-edwards-usa-g.jpg",
+                    "description": "LeBron James has officially become the NBA’s all-time leading scorer, surpassing Kareem Abdul-Jabbar’s long-standing record. This milestone cements LeBron’s legacy as one of the greatest players in history."
+                },
+                {
+                    "id": 11,
+                    "title": "Warriors vs. Celtics: The Most Anticipated Matchup of the Season",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg/640px-Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg",
+                    "description": "The upcoming game between the Golden State Warriors and the Boston Celtics is generating significant buzz. Fans are excited to see these two powerhouse teams face off in a highly anticipated matchup."
+                },
+                {
+                    "id": 12,
+                    "title": "Historic Triple-Double for Giannis Antetokounmpo in Season Opener",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg/640px-Chicago_Bulls_and_New_Jersey_Nets%2C_March_28%2C_1991.jpg",
+                    "description": "Giannis Antetokounmpo achieved a historic triple-double in the season opener, showcasing his all-around skills and setting the tone for a promising season with the Milwaukee Bucks."
+                }
+            ]
+        },
+        {
+            "category": "tennis",
+            "news": [
+                {
+                    "id": 13,
+                    "title": "Emma Raducanu Wins Australian Open: A New Star is Born",
+                    "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+                    "description": "Emma Raducanu has captured her first major title at the Australian Open, marking a significant milestone in her career. Her victory is celebrated as a new star emerges in women's tennis."
+                },
+                {
+                    "id": 14,
+                    "title": "Rafael Nadal Announces Retirement from Tennis",
+                    "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+                    "description": "Rafael Nadal has announced his retirement from professional tennis, ending a remarkable career that includes numerous Grand Slam titles and unforgettable moments."
+                },
+                {
+                    "id": 15,
+                    "title": "US Open Draw: Key Matchups to Watch in the First Round",
+                    "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+                    "description": "The draw for the US Open has been revealed, featuring some intriguing matchups in the first round. Fans are eagerly anticipating the action as top players begin their quest for the title."
+                },
+                {
+                    "id": 16,
+                    "title": "Breakthrough Star Coco Gauff Shines at the US Open",
+                    "image": "https://www.sportico.com/wp-content/uploads/2023/12/GettyImages-1782797691-e1702930349671.jpg",
+                    "description": "Coco Gauff has delivered impressive performances at the US Open, showcasing her potential as a future star of tennis. Her play has captivated audiences and raised expectations for her career."
+                }
+            ]
+        }
+    ]
 }
