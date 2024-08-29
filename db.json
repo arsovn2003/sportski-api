@@ -5,175 +5,200 @@
             "title": "Champions League Final: Thrilling Overtime Win",
             "description": "The Champions League final saw an exhilarating match that went into overtime, ending with a last-minute goal.",
             "category": "football",
-            "image": "champions-league-final.jpg"
+            "image": "champions-league-final.jpg",
+            "publishedDate": "2024-08-27"
         },
         {
             "id": 2,
             "title": "NBA Playoffs: Unexpected Upset in Game 7",
             "description": "An underdog team pulled off a shocking upset in Game 7 of the NBA playoffs, securing their spot in the finals.",
             "category": "basketball",
-            "image": "nba-playoffs-upset.jpg"
+            "image": "nba-playoffs-upset.jpg",
+            "publishedDate": "2024-08-26"
         },
         {
             "id": 3,
             "title": "Wimbledon: Top Seeded Player Advances to Semifinals",
             "description": "A top-seeded player displayed unmatched skill to advance to the semifinals in this year’s Wimbledon.",
             "category": "tennis",
-            "image": "wimbledon-semifinals.jpg"
+            "image": "wimbledon-semifinals.jpg",
+            "publishedDate": "2024-08-25"
         },
         {
             "id": 4,
             "title": "Handball Championship: Defending Champions Dominate",
             "description": "The defending champions delivered a dominating performance, crushing their opponents in the Handball Championship.",
             "category": "handball",
-            "image": "handball-championship.jpg"
+            "image": "handball-championship.jpg",
+            "publishedDate": "2024-08-24"
         },
         {
             "id": 5,
             "title": "Football Transfer News: Star Striker Joins New Club",
             "description": "A star striker has made headlines by transferring to a new club in a record-breaking deal.",
             "category": "football",
-            "image": "football-transfer-news.jpg"
+            "image": "football-transfer-news.jpg",
+            "publishedDate": "2024-08-23"
         },
         {
             "id": 6,
             "title": "Basketball: Rising Star Breaks Rookie Records",
             "description": "A rising star has set new rookie records in the latest NBA season, becoming the talk of the town.",
             "category": "basketball",
-            "image": "basketball-rising-star.jpg"
+            "image": "basketball-rising-star.jpg",
+            "publishedDate": "2024-08-22"
         },
         {
             "id": 7,
             "title": "Tennis: Grand Slam Winner Announces Retirement",
             "description": "A legendary Grand Slam winner has announced their retirement, ending an illustrious career.",
             "category": "tennis",
-            "image": "tennis-retirement.jpg"
+            "image": "tennis-retirement.jpg",
+            "publishedDate": "2024-08-21"
         },
         {
             "id": 8,
             "title": "Handball: National Team Qualifies for World Cup",
             "description": "The national handball team has qualified for the World Cup after a nail-biting qualification match.",
             "category": "handball",
-            "image": "handball-world-cup-qualification.jpg"
+            "image": "handball-world-cup-qualification.jpg",
+            "publishedDate": "2024-08-20"
         },
         {
             "id": 9,
             "title": "Football: Historic Win for Underdog Team",
             "description": "An underdog football team achieved a historic win in the league, stunning fans and critics alike.",
             "category": "football",
-            "image": "football-underdog-win.jpg"
+            "image": "football-underdog-win.jpg",
+            "publishedDate": "2024-08-19"
         },
         {
             "id": 10,
             "title": "Basketball: Veteran Player Announces Final Season",
             "description": "A veteran basketball player has announced that the upcoming season will be their last, sparking emotional reactions from fans.",
             "category": "basketball",
-            "image": "basketball-veteran-final-season.jpg"
+            "image": "basketball-veteran-final-season.jpg",
+            "publishedDate": "2024-08-18"
         },
         {
             "id": 11,
             "title": "Tennis: Young Phenom Shocks the World in Major Upset",
             "description": "A young tennis phenom shocked the world by defeating a top-seeded player in a major tournament.",
             "category": "tennis",
-            "image": "tennis-phenom-upset.jpg"
+            "image": "tennis-phenom-upset.jpg",
+            "publishedDate": "2024-08-17"
         },
         {
             "id": 12,
             "title": "Handball: Controversial Call Decides Championship",
             "description": "A controversial referee call decided the outcome of the handball championship, leading to widespread debate.",
             "category": "handball",
-            "image": "handball-controversial-call.jpg"
+            "image": "handball-controversial-call.jpg",
+            "publishedDate": "2024-08-16"
         },
         {
             "id": 13,
             "title": "Football: Legendary Coach Announces Retirement",
             "description": "A legendary football coach has announced his retirement after decades of success on the field.",
             "category": "football",
-            "image": "football-coach-retirement.jpg"
+            "image": "football-coach-retirement.jpg",
+            "publishedDate": "2024-08-15"
         },
         {
             "id": 14,
             "title": "Basketball: Team USA Dominates in Olympics",
             "description": "Team USA displayed incredible dominance in the basketball event at the Olympics, securing another gold medal.",
             "category": "basketball",
-            "image": "team-usa-olympics.jpg"
+            "image": "team-usa-olympics.jpg",
+            "publishedDate": "2024-08-14"
         },
         {
             "id": 15,
             "title": "Tennis: Rising Star Wins First Grand Slam Title",
             "description": "A rising star has captured their first Grand Slam title, marking the start of a promising career.",
             "category": "tennis",
-            "image": "tennis-grand-slam-title.jpg"
+            "image": "tennis-grand-slam-title.jpg",
+            "publishedDate": "2024-08-13"
         },
         {
             "id": 16,
             "title": "Handball: European Championship Finals Preview",
             "description": "The stage is set for an exciting European Championship finals in handball, with top teams battling for the title.",
             "category": "handball",
-            "image": "handball-european-finals.jpg"
+            "image": "handball-european-finals.jpg",
+            "publishedDate": "2024-08-12"
         },
         {
             "id": 17,
             "title": "Football: World Cup Qualifiers - Surprising Results",
             "description": "The World Cup qualifiers have seen some surprising results, with underdogs edging out favorites.",
             "category": "football",
-            "image": "football-world-cup-qualifiers.jpg"
+            "image": "football-world-cup-qualifiers.jpg",
+            "publishedDate": "2024-08-11"
         },
         {
             "id": 18,
             "title": "Basketball: International Star Returns to Home League",
             "description": "An international basketball star has returned to their home league, creating a buzz among fans.",
             "category": "basketball",
-            "image": "basketball-international-star.jpg"
+            "image": "basketball-international-star.jpg",
+            "publishedDate": "2024-08-10"
         },
         {
             "id": 19,
             "title": "Tennis: Epic Five-Set Thriller in Quarterfinals",
             "description": "The tennis quarterfinals featured an epic five-set thriller that kept fans on the edge of their seats.",
             "category": "tennis",
-            "image": "tennis-epic-thriller.jpg"
+            "image": "tennis-epic-thriller.jpg",
+            "publishedDate": "2024-08-09"
         },
         {
             "id": 20,
             "title": "Handball: Young Talent Shines in National League",
             "description": "A young handball talent has made headlines with their stunning performances in the national league.",
             "category": "handball",
-            "image": "handball-young-talent.jpg"
+            "image": "handball-young-talent.jpg",
+            "publishedDate": "2024-08-08"
         },
         {
             "id": 21,
             "title": "Football: All-Time Top Scorer Reaches New Milestone",
             "description": "Football’s all-time top scorer has reached another career milestone, adding to their legendary status.",
             "category": "football",
-            "image": "football-top-scorer.jpg"
+            "image": "football-top-scorer.jpg",
+            "publishedDate": "2024-08-07"
         },
         {
             "id": 22,
             "title": "Basketball: New Rules Spark Controversy in League",
             "description": "New rule changes in the basketball league have sparked controversy, with players and coaches divided.",
             "category": "basketball",
-            "image": "basketball-rule-changes.jpg"
+            "image": "basketball-rule-changes.jpg",
+            "publishedDate": "2024-08-06"
         },
         {
             "id": 23,
             "title": "Tennis: Major Tournament Postponed Due to Weather",
             "description": "A major tennis tournament has been postponed due to severe weather conditions, causing frustration among players.",
             "category": "tennis",
-            "image": "tennis-tournament-postponed.jpg"
+            "image": "tennis-tournament-postponed.jpg",
+            "publishedDate": "2024-08-05"
         },
         {
             "id": 24,
             "title": "Handball: Star Player Suspended After Controversial Incident",
             "description": "A star handball player has been suspended following a controversial incident during a match.",
             "category": "handball",
-            "image": "handball-player-suspended.jpg"
+            "image": "handball-player-suspended.jpg",
+            "publishedDate": "2024-08-04"
         },
         {
             "id": 25,
             "title": "Football: Last-Minute Goal Secures Championship Win",
             "description": "A thrilling football match ended with a last-minute goal that secured the championship for the winning team.",
             "category": "football",
-            "image": "football-championship-win.jpg"
+            "image": "football-championship-win.jpg",
+            "publishedDate": "2024-08-03"
         }
     ]
 }
